@@ -1,11 +1,11 @@
 # CUB-200 Bird Classification
-This project implements deep learning models for fine-grained visual recognition, specifically classifying 200 bird species from the CUB-200 dataset. It features two state-of-the-art architectures with advanced training techniques including cyclical learning rates, gradual unfreezing, and comprehensive evaluation metrics.
+This project implements deep learning models for fine-grained visual recognition, specifically classifying 200 bird species from the CUB-200 dataset. It features two state-of-the-art architectures with advanced training techniques including cyclical learning rates, gradual unfreezing, and evaluation metrics.
 
 **Key Features:**
 - **Dual Architecture**: ResNet50 and EfficientNet-B3 with custom classification heads
 - **Two-Stage Training**: Gradual unfreezing strategy for optimal transfer learning
 - **Learning Rate Optimization**: LR Finder + Triangular Cyclical LR for super-convergence
-- **Comprehensive Metrics**: Top-1, Top-5, and per-class accuracy evaluation
+- **Evaluation Metrics**: Top-1, Top-5, and per-class accuracy evaluation
 - **Advanced Augmentation**: Multi-stage data augmentation pipeline
 
 ## Dataset
